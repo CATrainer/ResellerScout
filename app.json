@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Reseller Scout",
+    "slug": "reseller-scout",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B0F"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.calebtrainer.resellerscout",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Reseller Scout uses the camera to scan items so we can identify, price, and list them for you.",
+        "NSPhotoLibraryUsageDescription": "Reseller Scout uses photos from your library to identify, price, and list items.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.calebtrainer.resellerscout",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B0B0F"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Reseller Scout uses the camera to scan items so we can identify, price, and list them for you."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Reseller Scout uses photos from your library to identify, price, and list items."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "TO_BE_FILLED_ON_FIRST_EAS_BUILD"
+      }
+    }
+  }
+}
