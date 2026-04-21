@@ -1,5 +1,5 @@
 {
-  "name": "reseller-scout",
+  "name": "worthit",
   "version": "0.1.0",
   "main": "index.ts",
   "scripts": {
@@ -8,13 +8,17 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "benchmark": "tsx scripts/benchmark-vision.ts",
-    "test-ebay": "tsx scripts/test-ebay.ts"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
     "@supabase/supabase-js": "^2.45.0",
     "expo": "~54.0.33",
+    "expo-apple-authentication": "~8.0.8",
     "expo-camera": "~16.0.0",
+    "expo-clipboard": "~8.0.8",
     "expo-constants": "~17.0.0",
+    "expo-haptics": "~15.0.8",
     "expo-image-picker": "~17.0.10",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Reseller Scout",
-    "slug": "reseller-scout",
+    "name": "WorthIt",
+    "slug": "worthit",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,15 +14,15 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.calebtrainer.resellerscout",
+      "bundleIdentifier": "com.calebtrainer.worthit",
       "infoPlist": {
-        "NSCameraUsageDescription": "Reseller Scout uses the camera to scan items so we can identify, price, and list them for you.",
-        "NSPhotoLibraryUsageDescription": "Reseller Scout uses photos from your library to identify, price, and list items.",
+        "NSCameraUsageDescription": "WorthIt uses the camera to scan items so we can identify, price, and list them for you.",
+        "NSPhotoLibraryUsageDescription": "WorthIt uses photos from your library to identify, price, and list items.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.calebtrainer.resellerscout",
+      "package": "com.calebtrainer.worthit",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0B0B0F"
@@ -41,13 +41,13 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Reseller Scout uses the camera to scan items so we can identify, price, and list them for you."
+          "cameraPermission": "WorthIt uses the camera to scan items so we can identify, price, and list them for you."
         }
       ],
       [
         "expo-image-picker",
         {
-          "photosPermission": "Reseller Scout uses photos from your library to identify, price, and list items."
+          "photosPermission": "WorthIt uses photos from your library to identify, price, and list items."
         }
       ]
     ],
